@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* Eghbaldar.com */
+body, div, p, h1, h2, h3, h4, ul, li, table{
+margin:0;
+padding:0;
+border:none;
+}
+body
+{
+	font-family:Tahoma;
+	font-size:11px;
+padding:0px;
+background-color:#fff;
+direction:rtl;
+}
+#body{
+margin: 5px auto 1px auto;
+width:909px;
+}
+#master{
+float:right;
+background-color:#fff;
+background-repeat:repeat-y;
+line-height : 110%; 
+}
+#header
+{
+	padding:3px;
+width:909px;
+height:100%;
+background-color:#fff;
+}
+#vasat
+{
+	border:1px solid #ccc;
+	padding:3px;
+}
+#footer
+{
+	padding:3px;
+float:right;
+background-color:#bed5d4;
+width:909px;
+height:100px;
+}
+/*
+#vasat{
+float:left;
+background-color:#ff5;
+width:708px;
+}
+*/
+#left{
+float:left;
+background-color:#997;
+width:100px;
+height:200px;
+}
+#right{
+float:right;
+background-color:#995;
+width:100px;
+height:200px;
+}
+	

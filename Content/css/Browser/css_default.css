@@ -1,0 +1,58 @@
+﻿@charset "utf-8";
+/* Shaahr.com | Developer: Alimohammad Eghbbalar | Analyzor: Amir Hossein Kargar */
+body, div, p, h1, h2, h3, h4, ul, li, table {
+	margin:0;
+	padding:0;
+	border:none;
+}
+body {
+	direction:rtl;
+	padding:0px;
+	background-repeat:repeat-x;
+	background-color:#d6e1e7;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+}
+#body {
+	margin: 0px auto 0px auto;
+	width:964px;
+
+}
+#TopHigh {
+	background-color:#90c9d4;
+	height:59px;
+	padding:3px;
+}
+#Center {
+	float:right;
+	width:964px;
+	background-image:url(../../../content/images/footer/bg.jpg);
+	height:538px;
+}
+#Center_Right {
+	padding:4px;
+	float:right;
+	width:298px;
+	height:100%;
+}
+#Center_Center {
+	padding:4px;
+	height:100%;
+	float:right;
+	width:432px;
+}
+#Center_Left {
+	padding-right:4px;
+	height:100%;
+	float:right;
+	width:207px;
+}
+#footer{
+	padding:5px;
+	margin: 0px auto 0px auto;
+	width:954px;
+	/*background-color:#ccc;*/
+	height:100%;
+
+}
+/*--------------------------------------------------------------------*/

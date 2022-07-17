@@ -1,0 +1,97 @@
+/*
+        #megaMenu2
+        {
+            list-style: none;
+            width: 118px;
+            height: 30px;
+            margin-top: 1px;
+            padding: 0px 0px 0px 0px;
+            background: #ef4223;
+            float: left;
+        }
+        */
+        #megaMenu2 li
+        {
+            display: block;
+            text-align: center;
+            position: relative;
+            margin-top: 5px;
+            border: none;
+        }
+        #megaMenu2 li a
+        {
+            font-family: myFont_yekan,Tahoma;
+            font-size: 14px;
+            color: #eee;
+            display: block;
+            outline: 0;
+            text-decoration: none;
+            text-shadow: 1px 1px 1px #000;
+        }
+        #megaMenu2 li .drop
+        {
+            margin: 0px 10px;
+            padding-right: 15px;
+            background: url( "images/drop.png" ) no-repeat right 8px;
+        }
+        #megaMenu2 li:hover .drop
+        {
+            background: url( "images/drop.png" ) no-repeat right 8px;
+        }
+        .dropdown_1column, .dropdown_2columns, .dropdown_3columns, .dropdown_4columns, .dropdown_5columns
+        {
+        	
+        	-moz-border-radius: 3px;	-webkit-border-radius: 3px;	 border-radius:3px;
+            margin: 4px 1px;
+            float: right;
+            position: absolute;
+            left: -990em; /* Hides the drop down */
+            text-align: right;            
+            padding: 5px;
+            border: 1px solid #777777;
+            border: none;
+            background: #ccc;
+            color:Black;
+            border-top:3px solid #F5F5F5;
+            margin-top: -1px;
+            box-shadow:4px 4px 1px #5A5A5A;
+            
+            
+        }
+        .dropdown_2columns
+        {
+            width: 180px;
+        }
+        #megaMenu2 li:hover .dropdown_2columns
+        {
+            right:-47px;
+            top: auto;
+        }
+        .col_1, .col_2, .col_3, .col_4, .col_5
+        {
+            display: inline;
+            float: left;
+            position: relative;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .col_1
+        {
+            width: 130px;
+        }
+        .col_2
+        {
+            width: 270px;
+        }
+        .col_3
+        {
+            width: 410px;
+        }
+        .col_4
+        {
+            width: 550px;
+        }
+        .col_5
+        {
+            width: 690px;
+        }

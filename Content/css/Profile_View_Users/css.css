@@ -1,0 +1,316 @@
+/* Shaahr.com | Developer: Alimohammad Eghbbalar | Analyzor: Amir Hossein Kargar */
+body, div, p, h1, h2, h3, h4, ul, li, table {
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+body {
+
+	padding:0px;
+	background-repeat:repeat-x;
+	background-color:#d6e1e7;
+}
+#body {	direction:rtl;
+	margin: 5px auto 0px auto;
+	width:964px;
+}
+#header {
+	float:right;
+	margin-top:-8px;
+	padding:0px;
+}
+#Guid {
+	float:right;
+	padding:0px;
+	width:962px;
+	height:41px;
+	background-image:url(../../images/Profile_View_USers/bgHeaderBase.jpg);
+	border-right:solid #c9c9c9 1px;
+	border-left:solid #c9c9c9 1px;
+}
+#headerPic {
+	float:right;
+	/* background-image:url(../../images/Profile_View_USers/headerProfileDefault.jpg); */
+width:962px;
+	height:100%;
+	border-right:solid #c9c9c9 1px;
+	border-left:solid #c9c9c9 1px;
+}
+#Nav {
+	margin-top:2px;
+	float:right;
+	background-image:url(../../images/Profile_View_USers/bgNavBase.jpg);
+	background-repeat:repeat-x;
+	width:962px;
+	height:50px;
+	border-bottom:solid #ececec 1px;
+	border-right:solid #c9c9c9 1px;
+	border-left:solid #c9c9c9 1px;
+}
+#logoNav {
+	float:right;
+	padding:7px;
+}
+#textNav {
+	float:right;
+}
+#searchNav {
+	float:right;
+	margin-right:30px;
+	float:right;
+	width:523px;
+	height:45px;
+}
+#Offer {
+	float:right;
+	float:right;
+	width:40px;
+	height:45px;
+}
+/*----------------- Master ----------------------*/
+#master {
+	border-right:solid #c9c9c9 1px;
+	border-left:solid #c9c9c9 1px;
+	background-color:#fff;
+	float:right;
+	padding:4px;
+}
+#RightMaster {
+	float:right;
+	width:349px;
+	height:100%;
+}
+#CenterMaster {
+	float:right;
+	width:555px;
+	height:100px;
+}
+#LeftMaster {
+	float:right;
+	width:50px;
+	height:500px;
+	border-right:solid #CCC thin;
+}
+/*Right-------------------------------------------*/
+#avatars {
+	float:right;
+	border:solid #CCC thin;
+	width:344px;
+	height:243px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+}
+
+
+
+#ads_panel {
+	float:right;
+	margin-top:3.5px;
+	height:100%;
+}
+#ads 
+{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+	border:1px solid #CCC ;
+	float:right;
+	width:145px;
+	margin-left:3px;
+	height:100%;
+}
+
+
+
+#panels {
+	float:right;
+	width:200px;
+	height:100%;
+	margin-top:3px;
+}
+/*Center*/
+#CenterMaster {
+	float:right;
+	width:554px;
+	height:100%;
+}
+#think {
+	padding:5px;
+	float:right;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#000;
+	width:547px;
+	/*height:41px;*/
+height:100%;
+}
+#menu {
+	float:right;
+	width:554px;
+	height:41px;
+}
+#desktop {
+	margin-top:2px;
+	float:right;
+	width:554px;
+	height:100%;
+}
+#update {
+	padding:2px;
+	float:right;
+	width:100%;
+	height:100%;
+}
+#dockContainer {
+	border-right:solid #CCC thin;
+}
+/*----- Footer ------- */
+#footer {
+	float:right;
+	background-color:#efedf0;
+	width:100%;
+	border-top:solid #5F9EAA 2px;
+}
+#footer_main {
+	margin: 0px auto 20px auto;
+	width:992px;
+}
+#footerTop {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius:3px;
+	background-color:#e3e3e3;
+	margin-top:8px;
+	margin-right:13px;
+	border:solid #dddddd 1px;
+	width:965px;
+	height:100px;
+}
+#footerTopRight {
+	margin-top:6px;
+	float:right;
+	width:690px;
+	height:50px;
+	padding:5px;
+}
+#footerTopLeft {
+	margin-top:12px;
+	padding:5px;
+	float:right;
+	width:254px;
+	height:50px;
+}
+#imgCopyright {
+	float:right;
+}
+#textCopyright {
+	float:right;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	padding:5px;
+	color:gray;
+	margin-top:-3px;
+}
+.textNav {
+	float:right;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	padding:0px;
+	color:gray;
+	margin-right:2px;
+}
+.imgNav {
+	float:right;
+}
+#footerDown {
+	margin-right:220px;
+	margin-top:5px;
+}
+/*------------------------------------------Box-----------*/
+
+.box_header {
+	padding:0px 3px 0px 0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	background-color:#d9e4e8;
+	width:544px;
+	color:Gray;
+	height:16px;
+	-moz-border-radius: 2px;	-webkit-border-radius: 2px;	 border-radius:2px;
+	padding:2px;
+}
+.box_content {
+	width:548px;
+	height:105px;
+}
+.box {
+	float:right;
+	width:548px;
+	height:120px;
+	display:none;
+	border-bottom:solid #c3cdd1 1px;
+	float:right;
+	margin-top:2px;
+}
+/*---------------------------------------------------*/
+#panels {
+	float:right;
+	/*background-color:#390; */
+		width:196px;
+	height:100%;
+}
+.Pnl_Header {
+	padding:2px 4px 0px 0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#577F8B;
+	background-color:#EFF4F7;
+	border:1px solid #D6E1E7;
+	width:184px;
+	height:17px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius:4px;
+	padding:2px;
+}
+#Pnl_gallery {
+	float:right;
+}
+
+.PnlContent
+{	
+	border:1px solid #ccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius:4px;
+	padding:2px;
+	float:right;
+	margin-bottom:3px;
+}
+
+/*----------*/
+#ads_panel {
+	float:right;
+	margin-top:3.5px;
+}
+
+/* menu abie balae safhe */
+
+.DivTop
+{
+	color: #587C8C; 
+	height: 17px; 
+	padding: 3px; 
+	background-color: #EFF4F7;
+	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	 border-radius:5px;
+	font-family: Tahoma; 
+	font-size: 11px; 
+	padding-right: 5px;
+	border:1px solid #D6E1E7;
+}
+

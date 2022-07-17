@@ -1,0 +1,307 @@
+﻿<%@ Master Language="VB" CodeFile="Subshaahr.master.vb" Inherits="home_Home" %>
+
+<%@ Register Src="~/UserControl/Home/FindUsers.ascx" TagName="FindUsers" TagPrefix="uc1" %>
+<%@ Register Src="~/UserControl/Home/GuidMenu.ascx" TagName="GuidMenu" TagPrefix="uc2" %>
+<%@ Register Src="~/UserControl/Root/TopTextLogo.ascx" TagName="TopTextLogo" TagPrefix="uc4" %>
+<%@ Register Src="~/UserControl/Root/LeftMenu.ascx" TagName="LeftMenu" TagPrefix="uc3" %>
+<%@ Register Src="~/UserControl/Root/Footer_other.ascx" TagName="Footer" TagPrefix="uc6" %>
+<%@ Register Src="../UserControl/ADS/ADS.ascx" TagName="ADS" TagPrefix="uc5" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="SHORTCUT ICON" href="../content/images/Home/ShaahrFavorite.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../Content/css/Home/css_OtherPage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        @font-face
+        {
+            font-family: koodak;
+            src: url(                                                           "../content/font/W_koodak.TTF" );
+        }
+        .logoR
+        {
+            padding-right: 15px;
+            padding-top: 15px;
+            width: 294px;
+        }
+        .logoC
+        {
+            width: 296px;
+            text-align: center;
+            padding-top: 15px;
+        }
+        .logoL
+        {
+            padding-left: 15px;
+            padding-top: 15px;
+            text-align: left;
+        }
+        .style1
+        {
+            width: 100%;
+        }
+        .A
+        {
+            color: Black;
+            text-decoration: none;
+        }
+        #header_
+        {
+            width: 900px;
+            height: 100%;
+        }
+        #Subname_
+        {
+            width: 900px;
+            height: 100%;
+        }
+        .style1
+        {
+            width: 100%;
+        }
+        .style3
+        {
+            width: 100%;
+        }
+        .style5
+        {
+            width: 327px;
+        }
+        .style6
+        {
+            width: 565px;
+        }
+        .DynamicMenuStyle
+        {
+            -moz-border-radius: 5px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            color: #fff;
+            width: 150px;
+            text-align: right;
+            margin-top: 1px;
+            background-color: #8C8C8C;
+        }
+        .DynamicMenuStyleEN
+        {
+            -moz-border-radius: 5px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            color: #fff;
+            width: 150px;
+            margin-top: 1px;
+            text-align: left;
+            background-color: #8C8C8C;
+        }
+        .Border
+        {
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            box-shadow: 1px 2px 12px #ccc;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="body">
+        <div id="header">
+            <!--Start Header-->
+            <div id="Guid">
+                <uc2:GuidMenu ID="GuidMenu1" runat="server" />
+            </div>
+            <div id="Nav">
+                <uc4:TopTextLogo ID="TopTextLogo1" runat="server" />
+                <div id="searchNav">
+                    <uc1:FindUsers ID="FindUsers1" runat="server" />
+                </div>
+                <div id="Offer">
+                </div>
+            </div>
+        </div>
+        <!-- End Heeader -->
+        <div id="master">
+            <div style="float: right; width: 903px; height: 100%;">
+                <div id="header_">
+                    <asp:Panel ID="P_Header" runat="server">
+                        <table class="style1">
+                            <tr>
+                                <td class="logoR">
+                                    <asp:Image ID="imgLogoR" class="Border" runat="server" />
+                                </td>
+                                <td class="logoC">
+                                    <asp:Image ID="imgLogoC" class="Border" runat="server" />
+                                </td>
+                                <td class="logoL">
+                                    <asp:Image ID="imgLogoL" class="Border" runat="server" />
+                                </td>
+                            </tr>
+                        </table>
+                    </asp:Panel>
+                </div>
+                <div id="Subname_">
+                    <div style="height: 100%; background-color: #F8F8F8; border-bottom: 1px solid #ebebeb;">
+                        <asp:MultiView ID="MV_NameSubname" runat="server" ActiveViewIndex="0">
+                            <asp:View ID="V_Right" runat="server">
+                                <table class="style3">
+                                    <tr>
+                                        <td>
+                                            <table class="style3">
+                                                <tr>
+                                                    <td class="style6">
+                                                        <h1 style="font-weight: normal;">
+                                                            <asp:LinkButton ID="lblNameRight" runat="server" Style="font-family: koodak; font-size: 18px;
+                                                                text-decoration: none; color: #333333;" />
+                                                        </h1>
+                                                    </td>
+                                                    <td style="text-align: left">
+                                                        <table class="style3">
+                                                            <tr>
+                                                                <td>
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Label ID="lblOzv" runat="server" Style="font-family: koodak; font-size: 14px;
+                                                                        color: #9A9A9A;" Text="23300"></asp:Label>
+                                                                </td>
+                                                                <td>
+                                                                    <img alt="" src="../Content/images/Shaahrs/Root/aza.png" style="width: 20px; height: 19px" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Label ID="lblVisit" runat="server" Style="font-family: koodak; font-size: 14px;
+                                                                        color: #9A9A9A;" Text="23300"></asp:Label>
+                                                                </td>
+                                                                <td>
+                                                                    <img alt="" src="../Content/images/Shaahrs/Root/bazdid.png" style="width: 21px; height: 21px" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Label ID="lblRotbe" runat="server" Style="font-family: koodak; font-size: 14px;
+                                                                        color: #9A9A9A;" Text="23300"></asp:Label>
+                                                                </td>
+                                                                <td>
+                                                                    <img alt="" src="../Content/images/Shaahrs/Root/rotbe.png" style="width: 21px; height: 21px" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:ImageButton ID="btnRegisterL" runat="server" ImageUrl="~/Content/images/Shaahrs/Root/Register.png" />
+                                                                </td>
+                                                                <td style="direction: ltr;">
+                                                                    <asp:Menu ID="Mnu_R" runat="server" Orientation="Horizontal" DynamicMenuItemStyle-CssClass="DynamicMenuStyle">
+                                                                        <StaticMenuItemStyle />
+                                                                        <Items>
+                                                                            <asp:MenuItem PopOutImageUrl="~/Content/images/Shaahrs/Root/setting.png">
+                                                                                <asp:MenuItem Text="گزارش تخلف" Value="Report"></asp:MenuItem>
+                                                                                <asp:MenuItem Text="شهروندان شهر" Value="Citizens"></asp:MenuItem>
+                                                                                <asp:MenuItem Text="قطع ارتباط" Value="Dispart"></asp:MenuItem>
+                                                                            </asp:MenuItem>
+                                                                        </Items>
+                                                                    </asp:Menu>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h1 style="font-weight: normal;">
+                                                <asp:Label ID="lblSubnameRight" runat="server" Style="font-size: 10px; color: #666666;"></asp:Label>
+                                            </h1>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </asp:View>
+                            <asp:View ID="V_Left" runat="server">
+                                <table class="style3">
+                                    <tr>
+                                        <td>
+                                            <table class="style3">
+                                                <tr>
+                                                    <td class="style5">
+                                                        <table class="style3">
+                                                            <tr>
+                                                                <td style="direction: rtl;">
+                                                                    <asp:ImageButton ID="btnRegisterR" runat="server" ImageUrl="~/Content/images/Shaahrs/Root/Register.png" />
+                                                                </td>
+                                                                <td>
+                                                                </td>
+                                                                <td>
+                                                                    <img alt="" src="../Content/images/Shaahrs/Root/rotbe.png" style="width: 21px; height: 21px" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Label ID="lblRotbeE" runat="server" Style="font-size: 14px; color: #9A9A9A;"
+                                                                        Text="23300"></asp:Label>
+                                                                </td>
+                                                                <td>
+                                                                    <img alt="" src="../Content/images/Shaahrs/Root/bazdid.png" style="width: 21px; height: 21px" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Label ID="lblVisitE" runat="server" Style="font-size: 14px; color: #9A9A9A;"
+                                                                        Text="23300"></asp:Label>
+                                                                </td>
+                                                                <td>
+                                                                    <img alt="" src="../Content/images/Shaahrs/Root/aza.png" style="width: 20px; height: 19px" />
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Label ID="lblOzvE" runat="server" Style="font-size: 14px; color: #9A9A9A;" Text="23300"></asp:Label>
+                                                                </td>
+                                                                <td>
+                                                                    <asp:Menu ID="Mnu_L" runat="server" DynamicMenuItemStyle-CssClass="DynamicMenuStyleEN"
+                                                                        Orientation="Horizontal">
+                                                                        <StaticMenuItemStyle />
+                                                                        <DynamicMenuItemStyle CssClass="DynamicMenuStyleEN" />
+                                                                        <Items>
+                                                                            <asp:MenuItem PopOutImageUrl="~/Content/images/Shaahrs/Root/setting.png">
+                                                                                <asp:MenuItem Text="Report" Value="Report"></asp:MenuItem>
+                                                                                <asp:MenuItem Text="Citizens" Value="Citizens"></asp:MenuItem>
+                                                                                <asp:MenuItem Text="Dispart" Value="Dispart"></asp:MenuItem>
+                                                                            </asp:MenuItem>
+                                                                        </Items>
+                                                                    </asp:Menu>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td style="text-align: left">
+                                                        <h1 style="font-weight: normal;">
+                                                            <asp:LinkButton ID="lblNameLeft" runat="server" Style="font-size: 18px; text-decoration: none;
+                                                                color: #333333;" />
+                                                        </h1>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left">
+                                            <h1 style="font-weight: normal;">
+                                                <asp:Label ID="lblSubnameLeft" runat="server" Style="color: #666666"></asp:Label>
+                                            </h1>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </asp:View>
+                        </asp:MultiView>
+                    </div>
+                </div>
+                <div id="RightMaster">
+                    <uc5:ADS ID="ADS1" runat="server" />
+                </div>
+                <div style="float: right; width: 740px; height: 100%; padding: 4px;">
+                    <asp:ContentPlaceHolder ID="CenterContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="LeftMaster">
+                <uc3:LeftMenu ID="LeftMenu1" runat="server" />
+            </div>
+        </div>
+        <uc6:Footer ID="Footer1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

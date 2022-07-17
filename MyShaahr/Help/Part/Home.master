@@ -1,0 +1,86 @@
+﻿<%@ Master Language="VB" CodeFile="Home.master.vb" Inherits="home_Home" %>
+
+<%@ Register Src="~/UserControl/Home/FindUsers.ascx" TagName="FindUsers" TagPrefix="uc1" %>
+<%@ Register Src="~/UserControl/Home/GuidMenu.ascx" TagName="GuidMenu" TagPrefix="uc2" %>
+<%@ Register Src="~/UserControl/Home/NavRightTop.ascx" TagName="NavRightTop" TagPrefix="uc3" %>
+<%@ Register Src="~/UserControl/Root/TopTextLogo.ascx" TagName="TopTextLogo" TagPrefix="uc4" %>
+<%@ Register Src="~/UserControl/Root/LeftMenu.ascx" TagName="LeftMenu" TagPrefix="uc5" %>
+<%@ Register Src="~/UserControl/Root/Footer_other.ascx" TagName="Footer" TagPrefix="uc6" %>
+<%@ Register Src="~/UserControl/ADS/ADS.ascx" TagName="ADS" TagPrefix="uc7" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="SHORTCUT ICON" href="../../content/images/Home/ShaahrFavorite.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../../../content/css/Home/css_OtherPage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            font-family: Tahoma;
+            font-size: 11px;
+        }
+        .style2
+        {
+            width: 18px;
+        }
+        .style3
+        {
+            width: 9px;
+        }
+        .style4
+        {
+            width: 9px;
+            height: 12px;
+        }
+        .style5
+        {
+            height: 12px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="body">
+        <div id="header">
+            <!--Start Header-->
+            <div id="Guid">
+                <uc2:GuidMenu ID="GuidMenu1" runat="server" />
+            </div>
+            <div id="Nav">
+                <uc4:TopTextLogo ID="TopTextLogo1" runat="server" />
+                <div id="searchNav">
+                    <uc1:FindUsers ID="FindUsers1" runat="server" />
+                </div>
+                <div id="Offer">
+                </div>
+            </div>
+        </div>
+        <!-- End Heeader -->
+        <div id="master">
+            <div id="RightMaster">
+                <div id="Information">
+
+                    <div style="width: 160px;">
+                        <uc3:NavRightTop ID="NavRightTop1" runat="server" />
+                    </div>
+                </div>
+                <uc7:ADS ID="ADS1" runat="server" />
+            </div>
+            <div id="CenterMaster">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="LeftMaster">
+                <uc5:LeftMenu ID="LeftMenu1" runat="server" />
+            </div>
+        </div>
+        <uc6:Footer ID="Footer1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

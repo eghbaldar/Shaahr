@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* Eghbaldar.com */
+body, div, p, h1, h2, h3, h4, ul, li, table{
+margin:0;
+padding:0;
+border:none;
+}
+body{
+	direction:rtl;
+padding:0px;
+background-image:url(../../images/stanbrows/bg_stanbrows.gif);
+background-repeat:repeat-x;
+background-color:#cde7eb;
+}
+#body{
+	background-image:url(../../images/stanbrows/center_stanbrows.gif);
+	background-repeat:repeat-x;
+margin: 5px auto 20px auto;
+width:812px;
+height:560px;
+}
+#logo1{
+	width:812px;
+	float:right;
+}
+#logo_1{
+margin-right:300px;
+}
+#note{
+	padding:5px;
+}
+.Font{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#000;
+}
+#ff{
+	float:right;
+	width:700px;
+}
+#ff_logo{
+		float:right;
+}
+#ff_note{
+	margin-right:10px;
+	margin-top:8px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	color:#379ed3;
+	float:right;
+}
+#ie_logo{
+		float:right;
+}
+#ie_note{
+		margin-right:10px;
+	margin-top:8px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	color:#379ed3;
+		float:right;
+}
+#ads{
+	padding:5px;
+	float:right;
+}
+#footer{
+	font-weight:bold;
+float:right;
+text-align:center;
+margin: 5px auto 20px auto;
+width:812px;
+}
+#logo_2{
+	width:812px;
+	text-align:center;
+	float:right;
+}
+

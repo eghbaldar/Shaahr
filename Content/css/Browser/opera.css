@@ -1,0 +1,168 @@
+﻿/* Shaahr.com | Developer: Alimohammad Eghbbalar | Analyzor: Amir Hossein Kargar */
+body, div, p, h1, h2, h3, h4, ul, li, table{
+margin:0;
+padding:0;
+border:none;
+}
+body{
+direction:rtl;
+padding:0px;
+background-image:url(../../images/HomePage/bg.gif);
+background-repeat:repeat-x;
+background-color:#d9ebe4;
+}
+#body{
+margin: 5px auto 20px auto;
+width:992px;
+}
+#master{float:right;}
+#service{width:220px;margin-top:-3px;}
+#center{
+float:right;
+width:798px;
+height:700px;
+background-color:#fff;
+border-width:1px;
+border-style:solid;
+border-color:#CCC;
+}
+#TimeHead{	visibility:hidden;}
+#master{float:right;margin-top:0px;}
+#right{
+background-image:url(../../images/HomePage/Servic.gif);
+background-repeat:no-repeat;
+width:192px;
+height:10px;
+margin-top:60px;
+float:right;
+
+}
+#Right_menu{
+background-color:#96bbc9;
+width:192px;
+height:500px;
+}
+
+/* Serviseee haaa */
+#Top_Menu{
+float:right;
+margin-top:0px;
+/* background-color:#999; */
+width:190px;
+height:250px;
+}
+/*____________________________________________________________*/
+#Down_Menu{
+background-image:url(../../images/HomePage/news.gif);
+background-repeat:no-repeat;
+margin-right:15px;
+margin-top:20px;
+float:right;
+background-color:#577e8b;
+width:177px;
+height:400px;
+}
+/* Gharardane News sssss */
+#News{
+float:right;
+margin-top:65px;
+/*background-color:#999;*/
+width:178px;
+height:284px;
+}
+/*____________________________________________________________*/
+
+#header_IMG{
+/*position:absolute;*/
+margin-top:5px;	
+margin-right:9px;
+background-image:url(../../images/header/header.jpg);
+width:780px;
+height:195px;
+}
+
+/* Login kardane User haaaaa */
+#header_Content{
+float:left;
+/* background-color:#CCC; */
+width:255px;
+height:195px;
+}
+/*____________________________________________________________*/
+
+#other{float:right;}
+#ads{
+float:right;
+margin-right:2px;
+margin-top:1px;
+}
+#PicDay{
+float:right;
+/*	background-color:#00C;*/
+margin-top:35px;
+margin-right:0px;
+width:240px;
+height:240px;
+}
+#JQ
+{	
+float:right;
+/* background-color:#990;  */
+width:558px;
+height:240px;
+}
+#slide-runner
+{
+	visibility:hidden;
+}
+#footer{
+float:right;
+background-color:#577e8b; 
+width:100%;
+height:150px;
+}
+#footer_main{
+margin: 0px auto 20px auto;
+width:992px;
+}
+#footer_navigator{
+	margin-top:20px;
+	float:right;
+	width:429px;
+	height:100px;
+/*  	background-color:#999;  */
+}
+#footer_logo{
+	float:right;
+	width:300px;
+	height:150px;
+	/* background-color:#039; */
+}
+#footer_right{float:right;}
+#footer_left{}
+#fLOGO{	margin-top:30px;}
+#fLOGO_Small{margin-right:-40px;}
+#footerNore
+{
+	direction:ltr;
+	
+}
+#Rank{
+	float:right;
+	width:100px;
+	height:20px;
+	margin-top:-40px;
+	margin-right:165px;
+
+}
+#NumRank{
+width:84px;
+text-align:left;
+	float:right;
+		margin-top:-45px;
+		margin-right:55px;
+}
+/*---------------------------------------------------------*/	 
+
+
+

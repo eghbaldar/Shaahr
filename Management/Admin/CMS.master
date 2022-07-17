@@ -1,0 +1,128 @@
+﻿<%@ Master Language="VB" CodeFile="CMS.master.vb" Inherits="Management_Admin_CMS" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>پنل مدیریتی شهر دات کام</title>
+    <link href="../Content/CSS/cssCMS.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 121px;
+        }
+        .style12
+        {
+            width: 18px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="body">
+        <div id="master">
+            <div id="header">
+                <div>
+                <a href="http://www.shaahr.com" target="_blank">
+                    <img src="../Content/Images/ShaahrLogo.png" style="border:0;" />
+                    </a>
+                    &nbsp;<table class="style1">
+                        <tr>
+                            <td class="style12">
+                                <img src="../Content/Images/date.png" />
+                            </td>
+                            <td>
+                                <asp:Label ID="lblDate" Style="color: #134543;" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style12">
+                                <img src="../Content/Images/user.gif" />
+                            </td>
+                            <td>
+                                <asp:Label ID="lblUser" runat="server" Style="color: #585858;"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style12">
+                                <img alt="" src="../Content/Images/unread.jpeg" style="width: 26px; height: 18px" />
+                            </td>
+                            <td>
+                                <asp:Label ID="Label1" runat="server" Style="color: red;" Text="0"></asp:Label>
+                            &nbsp;صندوق پستی</td>
+                        </tr>
+                        <tr>
+                            <td class="style12">
+                                <asp:ImageButton ID="btnBack" runat="server" ImageUrl="~/Management/Content/Images/back.jpeg" />
+                            </td>
+                            <td>
+                                بازگشت به صفحه مدیریتی
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="vasat">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                <table class="style1">
+                    <tr>
+                        <td>
+                            <table class="style1">
+                                <tr>
+                                    <td class="style2">
+                                        تعداد شهروندان شهر:
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style2">
+                                        تعداد عضو شدگان امروز:
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style2">
+                                        تعداد کاربران آنلاین:
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style2">
+                                        تعداد کاربران مهمان :</td>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="lblOnilneUsers" runat="server" Style="font-weight: 700; color: #800000"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

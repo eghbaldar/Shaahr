@@ -1,0 +1,129 @@
+﻿<%@ Master Language="VB" CodeFile="Home.master.vb" Inherits="home_Home" %>
+
+<%@ Register Src="../../UserControl/Home/FindUsers.ascx" TagName="FindUsers" TagPrefix="uc1" %>
+<%@ Register Src="../../UserControl/Home/GuidMenu.ascx" TagName="GuidMenu" TagPrefix="uc2" %>
+<%@ Register Src="~/UserControl/Root/TopTextLogo.ascx" TagName="TopTextLogo" TagPrefix="uc4" %>
+<%@ Register Src="../../UserControl/Root/LeftMenu.ascx" TagName="LeftMenu" TagPrefix="uc3" %>
+<%@ Register Src="~/UserControl/Root/Footer_other.ascx" TagName="Footer" TagPrefix="uc6" %>
+<%@ Register Src="../../UserControl/ADS/ADS.ascx" TagName="ADS" TagPrefix="uc5" %>
+<%@ Register Src="~/UserControl/Home/NavRightTop.ascx" TagName="NavRightTop" TagPrefix="uc13" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="SHORTCUT ICON" href="../../content/images/Home/ShaahrFavorite.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../../content/css/Home/css_OtherPage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 24px;
+        }
+        .A
+        {
+            color: Black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="body">
+        <div id="header">
+            <!--Start Header-->
+            <div id="Guid">
+                <uc2:GuidMenu ID="GuidMenu1" runat="server" />
+            </div>
+            <div id="Nav">
+                <uc4:TopTextLogo ID="TopTextLogo1" runat="server" />
+                <div id="searchNav">
+                    <uc1:FindUsers ID="FindUsers1" runat="server" />
+                </div>
+                <div id="Offer">
+                </div>
+            </div>
+        </div>
+        <!-- End Heeader -->
+        <div id="master">
+            <div id="RightMaster">
+                <div id="Information">
+                <uc13:NavRightTop ID="NavRightTop1" runat="server" />
+                    <table class="style1">
+                        <tr>
+                            <td class="style2">
+                                <img alt="" src="../../content/images/Stage/Jiring/jiring_detail.jpg" style="width: 24px;
+                                    height: 13px" />
+                            </td>
+                            <td>
+                                <a href="../../stage/jiring/" class="A">جیرینگ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <img alt="" src="../../content/images/Stage/Jiring/jiring_trip.jpg" style="width: 24px;
+                                    height: 23px" />
+                            </td>
+                            <td>
+                                <a href="CycleJiring.aspx" class="A">گردش حساب</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <img alt="" src="../../content/images/Stage/Jiring/jiring_increase.jpg" style="width: 24px;
+                                    height: 16px" />
+                            </td>
+                            <td>
+                                <a href="pay.aspx" class="A">افزایش جیرینگ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <img alt="" src="../../content/images/Stage/Jiring/jiring_transfer.jpg" style="width: 24px;
+                                    height: 18px" />
+                            </td>
+                            <td>
+                                <a href="J-transfer.aspx" class="A">انتقال جیرینگ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <img alt="" src="../../content/images/Stage/Jiring/jiring_enable_service.jpg" style="width: 24px;
+                                    height: 20px" />
+                            </td>
+                            <td>
+                                <a href="UsersServices.aspx" class="A">سرویس های فعال</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style2">
+                                <img alt="" src="../../content/images/Stage/Jiring/jiring_buy.jpg" style="width: 24px;
+                                    height: 19px" />
+                            </td>
+                            <td>
+                                <a href="Services.aspx" class="A">خرید سرویس</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <uc5:ADS ID="ADS1" runat="server" />
+            </div>
+            <div id="CenterMaster">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="LeftMaster">
+                <uc3:LeftMenu ID="LeftMenu1" runat="server" />
+            </div>
+        </div>
+        <uc6:Footer ID="Footer1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

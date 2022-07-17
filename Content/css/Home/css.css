@@ -1,0 +1,335 @@
+/* Shaahr.com | Developer: Alimohammad Eghbbalar | Analyzor: Amir Hossein Kargar */
+body, div, p, h1, h2, h3, h4, ul, li, table{
+margin:0;
+padding:0;
+border:none;
+}
+body{
+
+padding:0px;
+background-repeat:repeat-x;
+background-color:#d6e1e7;
+}
+#body
+{
+direction:rtl; /*bekhatere menue like post hae in code az tage BODY be inja montaghel shod*/
+margin: 5px auto 0px auto;
+width:964px;
+}
+
+#header{
+float:right;
+margin-top:-8px;
+padding:0px;
+}
+#Guid{
+float:right;
+padding:0px;
+width:962px;
+height:41px;
+background-image:url(../../images/Profile_View_Users/bgHeaderBase.jpg);
+border-right:solid #c9c9c9 1px;
+border-left:solid #c9c9c9 1px;
+}
+#headerPic{
+float:right;
+background-image:url(../../images/Profile_View_Users/headerProfileDefault.jpg);
+width:962px;
+height:88px;
+border-right:solid #c9c9c9 1px;
+border-left:solid #c9c9c9 1px;
+}
+#Nav{
+margin-top:2px;
+float:right;
+background-image:url(../../images/Profile_View_Users/bgNavBase.jpg);
+background-repeat:repeat-x;
+width:962px;
+height:50px;
+border-bottom:solid #ececec 1px;
+border-right:solid #c9c9c9 1px;
+border-left:solid #c9c9c9 1px;
+}
+#logoNav{
+float:right;
+padding:7px;
+}
+#textNav{
+float:right;
+}
+#searchNav{
+float:right;
+margin-right:30px;
+float:right;
+width:523px;
+height:45px;	
+}
+#Offer{
+float:right;
+float:right;
+width:40px;
+height:45px;	
+}
+/*----------------- Master ----------------------*/
+#master{
+border-right:solid #c9c9c9 1px;
+border-left:solid #c9c9c9 1px;
+background-color:#fff;
+float:right;
+padding:4px;
+}
+#CenterMaster{
+float:right;
+width:903px;
+height:100%;
+}
+#LeftMaster{
+float:right;
+width:50px;
+height:500px;
+border-right:solid #CCC thin;
+}
+/*Right-------------------------------------------*/
+#dockContainer{
+border-right:solid #CCC thin;
+}
+/*----- Footer ------- */
+#footer{
+float:right;
+background-color:#efedf0; 
+width:100%;
+border-top:solid #5F9EAA 2px;
+}
+#footer_main{
+margin: 0px auto 20px auto;
+width:992px;
+}
+#footerTop{
+-moz-border-radius: 3px;	-webkit-border-radius: 3px;	 border-radius:3px;
+background-color:#e3e3e3;
+margin-top:8px;
+margin-right:13px;
+border:solid #dddddd 1px;
+width:965px;
+height:100px;
+}
+#footerTopRight{
+margin-top:6px;
+float:right;
+width:690px;
+height:50px;
+padding:5px;
+}
+#footerTopLeft{
+margin-top:12px;
+padding:5px;
+float:right;
+width:254px;
+height:50px;
+}
+#imgCopyright{float:right;}
+#textCopyright{float:right;font-family:Tahoma, Geneva, sans-serif;font-size:11px;padding:5px;color:gray;margin-top:-3px;}
+.textNav{float:right;font-family:Tahoma, Geneva, sans-serif;font-size:11px;padding:0px;color:gray;margin-right:2px;}
+.imgNav{float:right;}
+#footerDown{margin-right:220px;margin-top:5px;}
+/*------------------------------------------Box-----------*/
+.box_header{
+-moz-border-radius: 3px;	-webkit-border-radius: 3px;	 border-radius:3px;
+padding:0px 3px 0px 0px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:11px;
+background-color:#d9e4e8;
+width:548px;
+height:20px;	
+}
+.box_content{
+width:548px;
+height:100px;
+}
+.box {
+float:right;
+width:548px;
+height:120px;
+display:none;
+border-bottom:solid #c3cdd1 1px;
+float:right;
+margin-top:2px;
+}
+/*-------------------------- Master Tools -----------------------------*/
+#desktop{
+	float:right;
+/*	background-color:#650;*/
+	width:690px;
+	height:100%;
+}
+#panels{
+	float:right;
+/*	background-color:#210; */
+	width:210px;
+	height:100%;
+	border-right:1px solid #f2f2f2;
+}
+.panel_header{
+	padding: 2px 2px 0px 0px;	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#577F8B;
+	border:1px solid #D6E1E7;
+	background-color:#eff4f7;
+	height:17px;
+	width:196px;
+	-moz-border-radius: 3px;	-webkit-border-radius: 3px;	 border-radius:3px;
+	margin-bottom:2px;
+}
+.PanelFormat
+{
+	-moz-border-radius: 3px;	-webkit-border-radius: 3px;	 border-radius:3px;
+	width: 200px;
+	border:1px solid #ccc;
+	padding:3px;
+	margin-bottom:3px;
+}
+#Top_desktop{
+width:688px;
+ height:100%;
+}
+#desktop_think
+{	
+	background-image:url(../../images/home/bgThink.png);
+	background-repeat:repeat-x;
+	float:right;
+	width:488px;
+	height:75px;
+/*	background-color:#f4f4f4;*/
+}
+#desktop_think_title
+{
+	font-family:Tahoma;
+	font-size:11px;
+	color:White;
+	width:488;
+	height:20px;
+}
+#desktop_think_content
+{
+	margin-top:5px;
+	width:488px;
+		height:50px;
+}
+#desktop_avatars
+{
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	float:right;
+	width:199px;
+	height:74px;
+/*	background-color:#f4f4f4;*/
+}
+#desktop_3shakhs
+{
+	float:right;
+	width:688px;
+	height:100%; 
+/*	height:134px; */
+/*	background-color:#f4f4f4;*/
+}
+#menu
+{
+	padding-top:2px;
+	font-family:Tahoma;
+	font-size:11px;
+	border-top:1px solid #e3e3e3;
+	float:right;
+	width:688px;
+	height:17px;
+	border-bottom:1px solid #ccc;
+}
+#ads{
+	margin-top:1px;
+float:right;
+width:150px;
+height:100%;
+
+}
+.ads_header{
+	padding:1px 4px 0px 0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#606060;
+	background-color:#d9e4e8;
+	width:194px;
+	height:17px;
+}
+#notification_object_update
+{
+	float:right;
+		width:533px;
+}
+#notification{
+	width:532px;
+}
+.notification_album_update__header
+{
+	padding:2px;
+	border-bottom:1px solid #ccd6dc;
+	width:533px;
+}
+#object{
+	float:right;
+	padding:2px;
+	margin-top:2px;
+	border:1px solid #ccc;
+	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	 border-radius:5px;
+	height:100%;
+	width:532px;
+}
+
+#update{
+	float:right;
+	padding:2px;
+	margin-top:2px;
+	border:1px solid #ccc;
+	-moz-border-radius: 5px;
+	height:100%;
+	width:532px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
